@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReportControllerTotalAppointments">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="250.0" style="-fx-background-color: #DC143C;">
+         <children>
+            <Pane layoutX="25.0" layoutY="125.0" prefHeight="367.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;" />
+            <Label layoutX="19.0" layoutY="39.0" style="-fx-background-color: #FFFFFF;" text="Appointments by Month and Type">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="cancelButton" layoutX="99.0" layoutY="555.0" mnemonicParsing="false" onAction="#moveToReportMenu" text="Cancel" />
+         </children></Pane>
+      <TableView fx:id="appointmentTypeMonthReportTable" layoutX="290.0" layoutY="40.0" prefHeight="518.0" prefWidth="674.0">
+        <columns>
+          <TableColumn fx:id="appointmentTypeColumn" prefWidth="243.0" text="Type" />
+          <TableColumn fx:id="appointmentTypeAndMonthTypeColumn" prefWidth="300.0" text="Month" />
+            <TableColumn fx:id="appointmentTypeAndMonthAmountTotalColumn" prefWidth="130.0" text="Qty" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

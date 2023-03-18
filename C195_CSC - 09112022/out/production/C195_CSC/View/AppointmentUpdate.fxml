@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AppointmentControllerUpdate">
+    <children>
+        <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #DC143C;">
+            <children>
+                <Label fx:id="appointmentIDLabel" layoutX="39.0" layoutY="59.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Appointment ID" />
+                <Label fx:id="customerNameLabel" layoutX="39.0" layoutY="107.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Customer Name" />
+                <Label fx:id="userLabel" layoutX="39.0" layoutY="154.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="User" />
+                <Label fx:id="titleLabel" layoutX="39.0" layoutY="200.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Title" />
+                <Label fx:id="descriptionLabel" layoutX="39.0" layoutY="253.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Description" />
+                <Label fx:id="contactLabel" layoutX="39.0" layoutY="398.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Contact" />
+                <Label fx:id="locationLabel" layoutX="39.0" layoutY="303.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Location" />
+            <Label fx:id="typeLabel" layoutX="39.0" layoutY="346.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Type" />
+                <Label layoutX="6.0" layoutY="14.0" prefHeight="20.0" prefWidth="188.0" style="-fx-background-color: #FFFFFF;" text="Update Appointment Form">
+                    <padding>
+                        <Insets left="15.0" />
+                    </padding>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label fx:id="dateLabel" layoutX="39.0" layoutY="445.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Date" />
+                <Label fx:id="startTimeLabel" layoutX="39.0" layoutY="497.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Start Time" />
+                <Label fx:id="endTimeLabel" layoutX="39.0" layoutY="544.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="End Time" />
+            </children></AnchorPane>
+        <AnchorPane layoutX="200.0" prefHeight="600.0" prefWidth="400.0">
+            <children>
+                <TextField fx:id="appointmentIDTextField" disable="true" editable="false" layoutX="51.0" layoutY="57.0" />
+                <ComboBox fx:id="customerNameComboBox" layoutX="50.0" layoutY="103.0" prefWidth="150.0" />
+                <TextField fx:id="titleTextField" layoutX="51.0" layoutY="195.0" />
+                <TextField fx:id="descriptionTextField" layoutX="51.0" layoutY="243.0" />
+                <TextField fx:id="locationTextField" layoutX="51.0" layoutY="297.0" />
+            <TextField fx:id="typeTextField" layoutX="51.0" layoutY="344.0" />
+                <ComboBox fx:id="contactComboBox" layoutX="50.0" layoutY="394.0" prefWidth="150.0" />
+                <DatePicker fx:id="dateDatePicker" editable="false" layoutX="50.0" layoutY="440.0" prefHeight="25.0" prefWidth="150.0" />
+                <ComboBox fx:id="startTimeComboBox" layoutX="50.0" layoutY="492.0" prefWidth="150.0" />
+                <ComboBox fx:id="endTimeComboBox" layoutX="50.0" layoutY="541.0" prefWidth="150.0" />
+                <Button fx:id="updateAppointmentButton" layoutX="257.0" layoutY="541.0" mnemonicParsing="false" onAction="#updateAppointmentButtonAction" text="Update Appointment" />
+                <Button fx:id="cancelButton" layoutX="334.0" layoutY="14.0" mnemonicParsing="false" onAction="#moveToAppointmentMenu" text="Cancel" />
+            <TextField fx:id="userTextField" editable="false" layoutX="51.0" layoutY="148.0" promptText="User is &quot;test&quot; by default" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CustomerControllerUpdate">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #DC143C;">
+            <children>
+                <Label fx:id="customerIDLabel" layoutX="39.0" layoutY="59.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Customer ID" />
+                <Label fx:id="customerNameLabel" layoutX="39.0" layoutY="107.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Customer Name" />
+                <Label fx:id="customerAddressLabel" layoutX="39.0" layoutY="154.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Address" />
+                <Label fx:id="customerPostalCodeLabel" layoutX="39.0" layoutY="200.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Postal Code" />
+                <Label fx:id="customerPhoneLabel" layoutX="39.0" layoutY="253.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Phone" />
+                <Label fx:id="customerFirstLevelDivisionLabel" layoutX="39.0" layoutY="356.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="First Level Division" />
+                <Label fx:id="customerCountryLabel" layoutX="39.0" layoutY="306.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Country" />
+                <Label layoutX="10.0" layoutY="14.0" prefHeight="17.0" prefWidth="180.0" style="-fx-background-color: #FFFFFF;" text="Update Customer Form">
+                    <padding>
+                        <Insets left="20.0" />
+                    </padding>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children></AnchorPane>
+        <AnchorPane layoutX="200.0" prefHeight="400.0" prefWidth="400.0">
+            <children>
+                <TextField fx:id="customerIDTextField" disable="true" editable="false" layoutX="51.0" layoutY="57.0" />
+                <TextField fx:id="customerNameTextField" layoutX="51.0" layoutY="100.0" />
+                <TextField fx:id="customerAddressTextField" layoutX="51.0" layoutY="147.0" />
+                <TextField fx:id="customerPostalCodeTextField" layoutX="51.0" layoutY="195.0" />
+                <TextField fx:id="customerPhoneTextField" layoutX="51.0" layoutY="243.0" />
+                <ComboBox fx:id="countryComboBox" layoutX="50.0" layoutY="296.0" onAction="#selectionComboBox" prefWidth="150.0" />
+                <ComboBox fx:id="firstLevelDivisionComboBox" layoutX="50.0" layoutY="348.0" prefWidth="150.0" />
+                <Button fx:id="updateCustomerButton" layoutX="279.0" layoutY="348.0" mnemonicParsing="false" onAction="#comboBoxUpdates" text="Update Customer" />
+                <Button fx:id="cancelButton" layoutX="334.0" layoutY="14.0" mnemonicParsing="false" onAction="#moveToCustomer" text="Cancel" />
+            <TextArea disable="true" layoutX="210.0" layoutY="193.0" prefHeight="137.0" prefWidth="190.0" text="To change First Level Division &#10;(while keeping &#10;the same country),&#10;change country, &#10;then select the original country&#10;" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

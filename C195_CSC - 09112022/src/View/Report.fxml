@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReportController">
+    <children>
+        <VBox prefHeight="400.0" prefWidth="400.0">
+            <children>
+                <AnchorPane prefHeight="80.0" prefWidth="400.0" style="-fx-background-color: #DC143C;">
+                    <children>
+                        <Label layoutX="90.0" layoutY="15.0" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: #D3D3D3;" text="Report Menu">
+                            <padding>
+                                <Insets left="70.0" />
+                            </padding>
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="320.0" prefWidth="400.0">
+                    <children>
+                        <Button fx:id="totalAppointmentsButton" layoutX="100.0" layoutY="44.0" mnemonicParsing="false" onAction="#moveToTotalAppointmentsReport" prefHeight="25.0" prefWidth="203.0" text="Total Appointments" />
+                        <Button fx:id="scheduleForContactsButton" layoutX="100.0" layoutY="96.0" mnemonicParsing="false" onAction="#moveToScheduleForContacts" prefHeight="25.0" prefWidth="203.0" text="Schedule for Contacts" />
+                        <Button fx:id="clientCountButton" layoutX="100.0" layoutY="148.0" mnemonicParsing="false" onAction="#moveToCustomerCount" prefHeight="25.0" prefWidth="203.0" text="Customer Count" />
+                        <Button fx:id="cancelButton" layoutX="327.0" layoutY="281.0" mnemonicParsing="false" onAction="#moveToMainMenu" prefHeight="25.0" prefWidth="59.0" text="Cancel" />
+                    </children></AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

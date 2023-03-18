@@ -1,0 +1,128 @@
+Sep 16, 2022 11:16:09 PM Controller.Login loginButtonClicked
+INFO: user asdf did not log in successfully.
+Sep 16, 2022 11:16:15 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 16, 2022 11:22:12 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 16, 2022 11:29:00 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 16, 2022 11:38:40 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 16, 2022 11:42:17 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 16, 2022 11:51:43 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:17:29 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:42:34 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:44:07 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:45:39 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:48:55 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:50:23 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:52:28 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:55:12 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:57:20 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:58:25 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 3:59:12 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:00:43 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:08:28 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:12:24 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:12:58 PM Controller.Login loginButtonClicked
+INFO: user test did not log in successfully.
+Sep 19, 2022 4:13:01 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:18:06 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:22:00 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:24:13 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:24:28 PM Controller.Login loginButtonClicked
+INFO: user test did not log in successfully.
+Sep 19, 2022 4:24:29 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 4:56:35 PM Controller.Login loginButtonClicked
+INFO: user test did not log in successfully.
+Sep 19, 2022 4:56:37 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:02:49 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:07:38 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:08:17 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:09:52 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:17:02 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:18:46 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:20:37 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:23:39 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:24:50 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:27:20 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:29:41 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:31:56 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:37:28 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:43:50 PM Controller.Login loginButtonClicked
+INFO: user admin logged in successfully.
+Sep 19, 2022 5:44:49 PM Controller.Login loginButtonClicked
+INFO: user admin logged in successfully.
+Sep 19, 2022 5:57:37 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:58:32 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:58:48 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:59:01 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:59:32 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 5:59:48 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:04:04 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:04:53 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:05:02 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:05:52 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:06:19 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:06:59 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:08:44 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:10:04 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:10:22 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:12:46 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:16:04 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.
+Sep 19, 2022 6:17:24 PM Controller.Login loginButtonClicked
+INFO: user admin logged in successfully.
+Sep 19, 2022 6:42:12 PM Controller.Login loginButtonClicked
+INFO: user test logged in successfully.

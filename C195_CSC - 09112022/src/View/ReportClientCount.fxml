@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReportControllerClientCount">
+    <children>
+        <VBox prefHeight="600.0" prefWidth="600.0">
+            <children>
+                <AnchorPane prefHeight="80.0" prefWidth="600.0" style="-fx-background-color: #DC143C;">
+                    <children>
+                        <Label layoutX="214.0" layoutY="15.0" prefHeight="50.0" prefWidth="172.0" style="-fx-background-color: #D3D3D3;" text="Client Count Report">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="520.0" prefWidth="600.0">
+                    <children>
+                        <Button fx:id="cancelButton" layoutX="527.0" layoutY="481.0" mnemonicParsing="false" onAction="#moveToReportMenu" prefHeight="25.0" prefWidth="59.0" text="Cancel" />
+                  <TableView fx:id="customerTableView" layoutX="100.0" layoutY="124.0" prefHeight="200.0" prefWidth="400.0">
+                    <columns>
+                      <TableColumn fx:id="customerIDColumn" prefWidth="75.0" text="Client ID" />
+                      <TableColumn fx:id="customerNameColumn" prefWidth="325.0" text="Client" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="100.0" layoutY="47.0" prefHeight="17.0" prefWidth="192.0" text="Number of Customers in Database" />
+                  <TextField fx:id="customerCountTextField" editable="false" layoutX="308.0" layoutY="43.0" prefHeight="25.0" prefWidth="192.0" />
+                    </children></AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

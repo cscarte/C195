@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CustomerController">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="1000.0">
+         <children>
+            <TableView fx:id="customerTableView" layoutY="152.0" prefHeight="450.0" prefWidth="1000.0">
+              <columns>
+                <TableColumn fx:id="customerIDColumn" prefWidth="75.0" text="Customer ID" />
+                <TableColumn fx:id="customerNameColumn" prefWidth="100.0" text="Name" />
+                  <TableColumn fx:id="customerAddressColumn" prefWidth="150.0" text="Address" />
+                  <TableColumn fx:id="customerPostalCodeColumn" prefWidth="75.0" text="Postal Code" />
+                  <TableColumn fx:id="customerPhoneColumn" prefWidth="100.0" text="Phone" />
+                  <TableColumn fx:id="customerCreateDateColumn" prefWidth="100.0" text="Created Date" />
+                  <TableColumn fx:id="customerCreatedByColumn" prefWidth="100.0" text="Created By" />
+                  <TableColumn fx:id="customerLastUpdateColumn" prefWidth="67.0" text="Last Updated" />
+                  <TableColumn fx:id="customerLastUpdatedByColumn" prefWidth="99.0" text="Last Updated By" />
+                  <TableColumn fx:id="customerDivisionIDColumn" prefWidth="133.0" text="Division ID" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="147.0" prefWidth="1000.0" style="-fx-background-color: #DC143C;">
+         <children>
+            <Button fx:id="mainMenuButton" layoutX="14.0" layoutY="99.0" mnemonicParsing="false" onAction="#moveToMainMenu" text="Main Menu" />
+            <Button fx:id="updateCustomerButton" layoutX="412.0" layoutY="99.0" mnemonicParsing="false" onAction="#moveToCustomerUpdate" text="Update Customer" />
+            <Button fx:id="addCustomerButton" layoutX="285.0" layoutY="99.0" mnemonicParsing="false" onAction="#moveToAddCustomer" text="Add Customer" />
+            <Label layoutX="378.0" layoutY="26.0" prefHeight="35.0" prefWidth="178.0" style="-fx-background-color: #D3D3D3;" text="Customers Table">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="deleteCustomerButton" layoutX="556.0" layoutY="99.0" mnemonicParsing="false" onAction="#deleteCustomerFromDataBase" text="Delete Customer" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
